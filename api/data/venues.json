@@ -1,0 +1,45 @@
+[
+  {
+    "venue_id": "atl-mbs",
+    "name": "Mercedes-Benz Stadium",
+    "city": "Atlanta",
+    "roof": "retractable/climate-controlled",
+    "capacity": 71000,
+    "gates": ["A", "B", "C", "D"],
+    "zones": [
+      {
+        "zone_id": "C-lower",
+        "amenities": ["restroom", "accessible-restroom", "food-halal", "first-aid"],
+        "accessible_route_from_gate": {
+          "C": "step-free ramp, 3 min"
+        }
+      },
+      {
+        "zone_id": "A-upper",
+        "amenities": ["restroom", "food-vegan"],
+        "accessible_route_from_gate": {
+          "A": "elevator to level 3, 5 min"
+        }
+      }
+    ],
+    "transit": ["MARTA rail to GWCC/CNN Center station", "shuttle from Vine City"]
+  },
+  {
+    "venue_id": "sea-lumen",
+    "name": "Lumen Field",
+    "city": "Seattle",
+    "roof": "open-air",
+    "capacity": 69000,
+    "gates": ["North", "South", "East", "West"],
+    "zones": [
+      {
+        "zone_id": "South-plaza",
+        "amenities": ["restroom", "first-aid", "food-general"],
+        "accessible_route_from_gate": {
+          "South": "flat paved path, 1 min"
+        }
+      }
+    ],
+    "transit": ["Link Light Rail to Stadium Station", "King County Metro bus lines"]
+  }
+]

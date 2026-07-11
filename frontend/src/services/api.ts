@@ -1,6 +1,6 @@
 import { getOfflineResponse } from '../engine/chatEngine';
 
-const API_BASE_URL = 'http://localhost:8000/api';
+const API_BASE_URL = import.meta.env.VITE_API_URL || '/api';
 
 export const chatWithAssistant = async (message: string, venueId: string) => {
   // Simulate slight network delay for realism (optional, but requested instant response so we use 500ms which feels natural)
