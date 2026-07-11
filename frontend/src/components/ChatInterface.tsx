@@ -127,6 +127,7 @@ const ChatInterface = forwardRef<ChatInterfaceHandle>((_props, ref) => {
           />
           <button
             type="submit"
+            aria-label="Send message"
             disabled={!input.trim() || isLoading}
             className="absolute right-2 top-2 bottom-2 w-10 flex items-center justify-center bg-[#16A34A] text-white rounded-md hover:bg-[#15803D] disabled:opacity-50 transition-colors"
           >

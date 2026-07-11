@@ -19,13 +19,16 @@ def log_intent_to_db(venue_id: str, metadata: dict):
         "venue_id": venue_id
     }
     
+    written_to_db = False
     if db:
         # Save to real Firestore
         try:
             db.collection("intent_logs").add(log_data)
+            written_to_db = True
         except Exception as e:
             print(f"Error logging to firestore: {e}")
-    else:
+            
+    if not written_to_db:
         # Local file logging for demo if firebase fails, must use /tmp in serverless
         import os
         log_path = "/tmp/intent_log.json" if os.environ.get("VERCEL") else "data/intent_log.json"
