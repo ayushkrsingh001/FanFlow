@@ -1,0 +1,12 @@
+{
+  "prohibited_items": ["Weapons of any kind", "Firearms and ammunition", "Knives and sharp objects", "Fireworks and flares", "Drones", "Professional cameras with detachable lenses (lens > 6 inches)", "Tripods and monopods", "Selfie sticks", "Large bags (exceeding 14x14x6 inches / 35x35x15 cm)", "Backpacks", "Coolers and hard containers", "Glass bottles", "Cans", "Outside food and beverages (sealed water bottles under 500ml may be allowed)", "Laser pointers", "Noisemakers (air horns, vuvuzelas)", "Umbrellas (large/golf style)", "Animals (except certified service animals)", "Illegal drugs and substances", "Offensive banners or flags", "Political banners or signs", "Skateboards, rollerblades, bicycles", "Chairs and stools", "Large flags (exceeding 2x1.5m / on poles)"],
+  "allowed_items": ["Small clear bags (12x6x12 inches / 30x15x30 cm)", "One-gallon clear plastic zip-lock bags", "Small clutch purses (6.5x4.5 inches)", "Wallets", "Mobile phones", "Sealed empty water bottles (to fill inside)", "Small non-professional cameras", "Binoculars", "Seat cushions (no larger than 15x15 inches, no zippers/pockets)", "Sunscreen (non-aerosol, under 100ml)", "Hats and sunglasses", "Ponchos and rain gear", "Prescription medications (with ID)", "Baby formula and baby food", "Diapers and baby supplies", "Small flags (handheld, no poles)", "Face paint", "Earplugs", "Portable phone chargers"],
+  "screening_process": "All fans must pass through security screening at the gate entrance. This includes walk-through metal detectors and bag inspection. Clear bag policy is strictly enforced. Expect 8-15 minutes wait time depending on the gate.",
+  "prohibited_behavior": ["Standing in aisles or blocking exits", "Throwing objects onto the field", "Entering the field of play", "Use of discriminatory language or behavior", "Excessive intoxication", "Smoking or vaping (including e-cigarettes)", "Ticket scalping on stadium grounds"],
+  "security_contacts": {
+    "general": "Text 'HELP' to 78247 from any stadium",
+    "suspicious_activity": "Report to nearest security personnel or text 'ALERT' to 78247",
+    "emergency": "Call 911"
+  },
+  "tips": ["Use clear bags to speed up security screening", "Arrive 90+ minutes early — security lines are longest 60-30 minutes before kickoff", "Leave prohibited items in your car or at home", "Security staff can provide temporary storage for small items at some gates"]
+}

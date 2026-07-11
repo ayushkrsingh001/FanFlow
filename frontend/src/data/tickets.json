@@ -1,0 +1,22 @@
+{
+  "categories": [
+    { "id": "general", "name": "General Admission", "price_range": "$50-$150", "description": "Standard seating in upper levels", "includes": ["Seat", "Access to general concourse food courts", "Free Wi-Fi"] },
+    { "id": "premium", "name": "Premium Seating", "price_range": "$250-$500", "description": "Lower bowl seating with enhanced views", "includes": ["Padded seat", "Access to premium food areas", "Free Wi-Fi", "Commemorative lanyard"] },
+    { "id": "vip", "name": "VIP Experience", "price_range": "$800-$2000", "description": "Club level with all-inclusive food and beverage", "includes": ["Club seat", "Complimentary food & beverage", "VIP entrance", "Lounge access", "Private restrooms"] },
+    { "id": "hospitality", "name": "Hospitality Suite", "price_range": "$5000-$15000", "description": "Private suite for groups of 12-20", "includes": ["Private suite", "Catering", "Dedicated attendant", "Private restroom", "Premium parking"] }
+  ],
+  "policies": {
+    "re_entry": "Re-entry is NOT permitted once you exit the stadium. Please plan accordingly.",
+    "transfer": "Tickets are digital and can be transferred via the official FIFA app only. No third-party resale is verified by the stadium.",
+    "lost_ticket": "If you lose your digital ticket, visit the Box Office near Gate A with a valid photo ID. They can look up your purchase and reissue.",
+    "child_policy": "Children under 3 do not need a ticket if seated on a parent's lap. Children 3 and above require a full ticket.",
+    "age_verification": "Valid photo ID may be required at entry for age-restricted areas (VIP lounges, alcohol service).",
+    "refund_policy": "Tickets are non-refundable except in case of match cancellation. In case of cancellation, refunds are processed within 30 business days."
+  },
+  "tips": [
+    "Download your tickets to your phone before arriving — cell service may be limited near the stadium.",
+    "Take a screenshot of your ticket QR code as backup.",
+    "Arrive at least 90 minutes before kickoff to clear security and find your seat.",
+    "Check the official FIFA app for real-time gate wait times."
+  ]
+}

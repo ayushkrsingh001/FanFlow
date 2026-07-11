@@ -1,0 +1,24 @@
+[
+  { "stadium_id": "atl-mbs", "stations": [
+    { "id": "MED1", "name": "Medical Station 1", "location": "Level 1 near Gate A", "services": ["First Aid", "CPR", "AED", "Wheelchair loan", "Basic medication"], "has_defibrillator": true, "has_wheelchair": true, "staffed_by": "Licensed EMTs and paramedics", "hours": "Open from gates open until 1 hour after event" },
+    { "id": "MED2", "name": "Medical Station 2", "location": "Level 2 near Gate C", "services": ["First Aid", "CPR", "AED", "Stretcher"], "has_defibrillator": true, "has_wheelchair": true, "staffed_by": "Licensed EMTs and paramedics", "hours": "Open from gates open until 1 hour after event" },
+    { "id": "MED3", "name": "Medical Station 3", "location": "Level 3 Club Level", "services": ["First Aid", "AED"], "has_defibrillator": true, "has_wheelchair": false, "staffed_by": "Licensed EMTs", "hours": "Open from gates open until 1 hour after event" }
+  ], "emergency_number": "911", "stadium_medical_hotline": "+1-404-223-4000", "nearest_hospital": "Grady Memorial Hospital - 1.5 miles (10 min by ambulance)", "ambulance_staging": "Gate D, Southwest corner" },
+  { "stadium_id": "sea-lumen", "stations": [
+    { "id": "MED1", "name": "Medical Station 1", "location": "Level 1 near North Gate", "services": ["First Aid", "CPR", "AED", "Wheelchair loan"], "has_defibrillator": true, "has_wheelchair": true, "staffed_by": "Licensed EMTs and paramedics", "hours": "Open from gates open until 1 hour after event" },
+    { "id": "MED2", "name": "Medical Station 2", "location": "Level 2 near South Gate", "services": ["First Aid", "CPR", "AED"], "has_defibrillator": true, "has_wheelchair": true, "staffed_by": "Licensed EMTs", "hours": "Open from gates open until 1 hour after event" }
+  ], "emergency_number": "911", "stadium_medical_hotline": "+1-206-381-7555", "nearest_hospital": "Harborview Medical Center - 1 mile (8 min by ambulance)", "ambulance_staging": "South Gate, S Atlantic St" },
+  { "stadium_id": "hou-nrg", "stations": [
+    { "id": "MED1", "name": "Medical Station 1", "location": "Level 1 near Gate A", "services": ["First Aid", "CPR", "AED", "Wheelchair loan"], "has_defibrillator": true, "has_wheelchair": true, "staffed_by": "Licensed EMTs", "hours": "Open from gates open until 1 hour after event" },
+    { "id": "MED2", "name": "Medical Station 2", "location": "Level 2 near Gate C", "services": ["First Aid", "CPR", "AED", "Heat stroke treatment"], "has_defibrillator": true, "has_wheelchair": true, "staffed_by": "Licensed EMTs and paramedics", "hours": "Open from gates open until 1 hour after event" }
+  ], "emergency_number": "911", "stadium_medical_hotline": "+1-832-667-1400", "nearest_hospital": "Houston Methodist Hospital - 5 miles (15 min by ambulance)", "ambulance_staging": "Gate B, East entrance" },
+  { "stadium_id": "nyc-metlife", "stations": [
+    { "id": "MED1", "name": "Medical Station 1", "location": "Level 1 near Gate A", "services": ["First Aid", "CPR", "AED", "Wheelchair loan"], "has_defibrillator": true, "has_wheelchair": true, "staffed_by": "Licensed EMTs and paramedics", "hours": "Open from gates open until 1.5 hours after event" },
+    { "id": "MED2", "name": "Medical Station 2", "location": "Level 1 near Gate C", "services": ["First Aid", "CPR", "AED"], "has_defibrillator": true, "has_wheelchair": true, "staffed_by": "Licensed EMTs", "hours": "Open from gates open until 1.5 hours after event" },
+    { "id": "MED3", "name": "Medical Station 3", "location": "Level 2 near Gate B", "services": ["First Aid", "AED"], "has_defibrillator": true, "has_wheelchair": true, "staffed_by": "Licensed EMTs", "hours": "Open from gates open until 1.5 hours after event" }
+  ], "emergency_number": "911", "stadium_medical_hotline": "+1-201-559-1515", "nearest_hospital": "Hackensack University Medical Center - 5 miles (12 min by ambulance)", "ambulance_staging": "Gate D, South entrance" },
+  { "stadium_id": "mex-azteca", "stations": [
+    { "id": "MED1", "name": "Centro Médico 1", "location": "Level 1 near Puerta 1", "services": ["First Aid", "CPR", "AED", "Altitude sickness treatment"], "has_defibrillator": true, "has_wheelchair": true, "staffed_by": "Licensed doctors and paramedics", "hours": "Open from gates open until 1 hour after event" },
+    { "id": "MED2", "name": "Centro Médico 2", "location": "Level 2 near Puerta 3", "services": ["First Aid", "CPR", "AED"], "has_defibrillator": true, "has_wheelchair": true, "staffed_by": "Licensed paramedics", "hours": "Open from gates open until 1 hour after event" }
+  ], "emergency_number": "911", "stadium_medical_hotline": "+52-55-5487-3200", "nearest_hospital": "Hospital General de México - 3 km (10 min by ambulance)", "ambulance_staging": "Puerta 4, West entrance" }
+]

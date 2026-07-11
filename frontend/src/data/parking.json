@@ -1,0 +1,31 @@
+[
+  { "stadium_id": "atl-mbs", "lots": [
+    { "id": "P1", "name": "Parking Lot P1", "location": "North of Stadium off Northside Dr NW", "capacity": 2500, "price": "$40", "ev_charging": true, "ev_stations": 20, "accessible_spots": 50, "distance_to_gate": "Gate A - 5 min walk", "pre_book": true, "tailgating": false },
+    { "id": "P2", "name": "Parking Lot P2", "location": "East of Stadium off Andrew Young Blvd", "capacity": 1800, "price": "$35", "ev_charging": true, "ev_stations": 12, "accessible_spots": 40, "distance_to_gate": "Gate B - 4 min walk", "pre_book": true, "tailgating": false },
+    { "id": "P3", "name": "Parking Lot P3", "location": "South of Stadium off MLK Jr Dr", "capacity": 3000, "price": "$30", "ev_charging": false, "ev_stations": 0, "accessible_spots": 60, "distance_to_gate": "Gate C - 6 min walk", "pre_book": true, "tailgating": true },
+    { "id": "P4", "name": "Parking Garage P4", "location": "West of Stadium, covered garage", "capacity": 1200, "price": "$50", "ev_charging": true, "ev_stations": 15, "accessible_spots": 30, "distance_to_gate": "Gate D - 3 min walk", "pre_book": true, "tailgating": false }
+  ]},
+  { "stadium_id": "sea-lumen", "lots": [
+    { "id": "P1", "name": "North Lot", "location": "North of Stadium off S Royal Brougham Way", "capacity": 2000, "price": "$45", "ev_charging": true, "ev_stations": 15, "accessible_spots": 45, "distance_to_gate": "North Gate - 3 min walk", "pre_book": true, "tailgating": true },
+    { "id": "P2", "name": "East Garage", "location": "Occidental Ave S", "capacity": 1500, "price": "$50", "ev_charging": true, "ev_stations": 10, "accessible_spots": 35, "distance_to_gate": "East Gate - 2 min walk", "pre_book": true, "tailgating": false },
+    { "id": "P3", "name": "South Surface Lot", "location": "South of Stadium", "capacity": 2500, "price": "$35", "ev_charging": false, "ev_stations": 0, "accessible_spots": 55, "distance_to_gate": "South Gate - 5 min walk", "pre_book": true, "tailgating": true }
+  ]},
+  { "stadium_id": "hou-nrg", "lots": [
+    { "id": "BLUE", "name": "Blue Lot", "location": "Northeast of NRG Park", "capacity": 5000, "price": "$50", "ev_charging": true, "ev_stations": 25, "accessible_spots": 80, "distance_to_gate": "Gate B - 8 min walk", "pre_book": true, "tailgating": true },
+    { "id": "TEAL", "name": "Teal Lot", "location": "Southeast of NRG Park", "capacity": 4000, "price": "$40", "ev_charging": false, "ev_stations": 0, "accessible_spots": 60, "distance_to_gate": "Gate C - 7 min walk", "pre_book": true, "tailgating": true },
+    { "id": "RED", "name": "Red Lot", "location": "West of NRG Park", "capacity": 3000, "price": "$45", "ev_charging": true, "ev_stations": 15, "accessible_spots": 50, "distance_to_gate": "Gate D - 6 min walk", "pre_book": true, "tailgating": true }
+  ]},
+  { "stadium_id": "nyc-metlife", "lots": [
+    { "id": "LOT_E", "name": "Lot E", "location": "East Side", "capacity": 8000, "price": "$60", "ev_charging": true, "ev_stations": 30, "accessible_spots": 100, "distance_to_gate": "Gate C - 5 min walk", "pre_book": true, "tailgating": true },
+    { "id": "LOT_G", "name": "Lot G", "location": "South Side", "capacity": 5000, "price": "$50", "ev_charging": false, "ev_stations": 0, "accessible_spots": 80, "distance_to_gate": "Gate D - 6 min walk", "pre_book": true, "tailgating": true },
+    { "id": "LOT_K", "name": "Lot K", "location": "North Side", "capacity": 6000, "price": "$55", "ev_charging": true, "ev_stations": 20, "accessible_spots": 90, "distance_to_gate": "Gate B - 7 min walk", "pre_book": true, "tailgating": true }
+  ]},
+  { "stadium_id": "dal-att", "lots": [
+    { "id": "LOT_A", "name": "Lot A", "location": "North of Stadium", "capacity": 5000, "price": "$55", "ev_charging": true, "ev_stations": 20, "accessible_spots": 75, "distance_to_gate": "Gate 1 - 5 min walk", "pre_book": true, "tailgating": true },
+    { "id": "LOT_C", "name": "Lot C", "location": "South of Stadium", "capacity": 6000, "price": "$40", "ev_charging": true, "ev_stations": 18, "accessible_spots": 80, "distance_to_gate": "Gate 3 - 6 min walk", "pre_book": true, "tailgating": true }
+  ]},
+  { "stadium_id": "mex-azteca", "lots": [
+    { "id": "P1", "name": "Estacionamiento Norte", "location": "North of Stadium", "capacity": 4000, "price": "MXN $500", "ev_charging": true, "ev_stations": 10, "accessible_spots": 60, "distance_to_gate": "Puerta 1 - 5 min walk", "pre_book": true, "tailgating": false },
+    { "id": "P2", "name": "Estacionamiento Sur", "location": "South of Stadium", "capacity": 3500, "price": "MXN $400", "ev_charging": false, "ev_stations": 0, "accessible_spots": 50, "distance_to_gate": "Puerta 3 - 4 min walk", "pre_book": true, "tailgating": false }
+  ]}
+]

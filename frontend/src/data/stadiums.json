@@ -1,0 +1,443 @@
+[
+  {
+    "id": "atl-mbs",
+    "name": "Mercedes-Benz Stadium",
+    "city": "Atlanta",
+    "country": "United States",
+    "capacity": 71000,
+    "roof": "retractable/climate-controlled",
+    "coordinates": { "lat": 33.7553, "lng": -84.4006 },
+    "gates": [
+      { "id": "A", "name": "Gate A", "location": "Northwest Entrance", "level": "Ground", "accessible": true },
+      { "id": "B", "name": "Gate B", "location": "Northeast Entrance", "level": "Ground", "accessible": true },
+      { "id": "C", "name": "Gate C", "location": "Southeast Entrance", "level": "Ground", "accessible": true },
+      { "id": "D", "name": "Gate D", "location": "Southwest Entrance", "level": "Ground", "accessible": true },
+      { "id": "VIP", "name": "VIP Gate", "location": "West Premium Entrance", "level": "Ground", "accessible": true }
+    ],
+    "entry_points": ["Gate A - Northwest", "Gate B - Northeast", "Gate C - Southeast", "Gate D - Southwest", "VIP Gate - West"],
+    "exit_points": ["Exit A1 - Northwest", "Exit A2 - North", "Exit B1 - Northeast", "Exit C1 - Southeast", "Exit C2 - South", "Exit D1 - Southwest"],
+    "parking": [
+      { "id": "P1", "name": "Parking Lot P1", "location": "North of Stadium", "capacity": 2500, "price": "$40", "ev_charging": true, "accessible_spots": 50 },
+      { "id": "P2", "name": "Parking Lot P2", "location": "East of Stadium", "capacity": 1800, "price": "$35", "ev_charging": true, "accessible_spots": 40 },
+      { "id": "P3", "name": "Parking Lot P3", "location": "South of Stadium", "capacity": 3000, "price": "$30", "ev_charging": false, "accessible_spots": 60 },
+      { "id": "P4", "name": "Parking Garage P4", "location": "West of Stadium", "capacity": 1200, "price": "$50", "ev_charging": true, "accessible_spots": 30 }
+    ],
+    "food_courts": [
+      { "id": "FC1", "name": "Food Court A", "location": "Level 1 near Gate A", "cuisine": ["American", "Mexican", "Asian"], "halal": true, "vegan": true },
+      { "id": "FC2", "name": "Food Court B", "location": "Level 2 near Gate B", "cuisine": ["Italian", "BBQ", "Seafood"], "halal": false, "vegan": true },
+      { "id": "FC3", "name": "Food Court C", "location": "Level 1 near Gate C", "cuisine": ["Southern", "Indian", "Mediterranean"], "halal": true, "vegan": true },
+      { "id": "FC4", "name": "Food Court D", "location": "Level 3 Club Level", "cuisine": ["Premium Dining", "Sushi", "Steakhouse"], "halal": false, "vegan": true }
+    ],
+    "medical_rooms": [
+      { "id": "MED1", "name": "Medical Station 1", "location": "Level 1 near Gate A", "has_defibrillator": true, "has_wheelchair": true },
+      { "id": "MED2", "name": "Medical Station 2", "location": "Level 2 near Gate C", "has_defibrillator": true, "has_wheelchair": true },
+      { "id": "MED3", "name": "Medical Station 3", "location": "Level 3 Club Level", "has_defibrillator": true, "has_wheelchair": false }
+    ],
+    "toilets": [
+      { "id": "T1", "location": "Level 1 Section 101-110", "accessible": true, "baby_change": true },
+      { "id": "T2", "location": "Level 1 Section 111-120", "accessible": true, "baby_change": true },
+      { "id": "T3", "location": "Level 2 Section 201-210", "accessible": true, "baby_change": false },
+      { "id": "T4", "location": "Level 2 Section 211-220", "accessible": true, "baby_change": true },
+      { "id": "T5", "location": "Level 3 Club Level", "accessible": true, "baby_change": true },
+      { "id": "T6", "location": "Level 1 near Gate B", "accessible": true, "baby_change": true }
+    ],
+    "accessibility": {
+      "wheelchair_seating": ["Section 112", "Section 118", "Section 212", "Section 218"],
+      "elevators": ["Near Gate A (Level 1-3)", "Near Gate C (Level 1-3)", "Central Concourse (Level 1-3)"],
+      "ramps": ["Gate A entrance ramp", "Gate C entrance ramp", "Gate D entrance ramp"],
+      "sensory_room": "Level 1 near Gate B - quiet room for sensory needs",
+      "companion_seating": true,
+      "hearing_loop": true,
+      "braille_signage": true,
+      "service_animals": true
+    },
+    "security_checkpoints": [
+      { "location": "Gate A Entrance", "wait_time_avg": "8 min" },
+      { "location": "Gate B Entrance", "wait_time_avg": "10 min" },
+      { "location": "Gate C Entrance", "wait_time_avg": "12 min" },
+      { "location": "Gate D Entrance", "wait_time_avg": "7 min" },
+      { "location": "VIP Gate", "wait_time_avg": "3 min" }
+    ],
+    "transport": {
+      "metro": "MARTA Rail - GWCC/CNN Center Station (5 min walk from Gate A)",
+      "bus": "MARTA Bus Routes 1, 26, 95 stop at Northside Dr NW",
+      "shuttle": "Free FIFA shuttle from Vine City MARTA Station (runs every 10 min on match days)",
+      "taxi_rideshare": "Pickup/Dropoff at Northside Dr NW and Andrew Young International Blvd",
+      "walking": "15 min walk from Centennial Olympic Park"
+    },
+    "emergency_exits": ["Exit A1 - Northwest corner", "Exit A2 - North side", "Exit B1 - Northeast corner", "Exit C1 - Southeast corner", "Exit C2 - South side", "Exit D1 - Southwest corner"],
+    "emergency_contacts": {
+      "stadium_security": "+1-404-223-4000",
+      "medical_emergency": "911",
+      "lost_child": "+1-404-223-4111",
+      "lost_found": "+1-404-223-4222"
+    },
+    "fan_zone": "GWCC Fan Festival Area - West of stadium, open 4 hours before kickoff",
+    "wifi": "Free Wi-Fi: 'MBS-FanConnect'",
+    "charging_stations": ["Level 1 near Gate A", "Level 2 Central Concourse", "Level 3 Club Level"]
+  },
+  {
+    "id": "sea-lumen",
+    "name": "Lumen Field",
+    "city": "Seattle",
+    "country": "United States",
+    "capacity": 69000,
+    "roof": "open-air",
+    "coordinates": { "lat": 47.5952, "lng": -122.3316 },
+    "gates": [
+      { "id": "N", "name": "North Gate", "location": "North Entrance off S Royal Brougham Way", "level": "Ground", "accessible": true },
+      { "id": "S", "name": "South Gate", "location": "South Entrance off S Atlantic St", "level": "Ground", "accessible": true },
+      { "id": "E", "name": "East Gate", "location": "East Entrance off Occidental Ave S", "level": "Ground", "accessible": true },
+      { "id": "W", "name": "West Gate", "location": "West Entrance off 1st Ave S", "level": "Ground", "accessible": true },
+      { "id": "VIP", "name": "VIP Gate", "location": "Southwest Premium Entrance", "level": "Ground", "accessible": true }
+    ],
+    "entry_points": ["North Gate - S Royal Brougham Way", "South Gate - S Atlantic St", "East Gate - Occidental Ave S", "West Gate - 1st Ave S", "VIP Gate - Southwest"],
+    "exit_points": ["Exit N1 - North", "Exit N2 - Northwest", "Exit S1 - South", "Exit E1 - East", "Exit E2 - Southeast", "Exit W1 - West"],
+    "parking": [
+      { "id": "P1", "name": "North Lot", "location": "North of Stadium", "capacity": 2000, "price": "$45", "ev_charging": true, "accessible_spots": 45 },
+      { "id": "P2", "name": "East Garage", "location": "East of Stadium on Occidental Ave", "capacity": 1500, "price": "$50", "ev_charging": true, "accessible_spots": 35 },
+      { "id": "P3", "name": "South Surface Lot", "location": "South of Stadium", "capacity": 2500, "price": "$35", "ev_charging": false, "accessible_spots": 55 }
+    ],
+    "food_courts": [
+      { "id": "FC1", "name": "Hawks Nest Food Hall", "location": "Level 1 North Concourse", "cuisine": ["Pacific Northwest", "Seafood", "Asian Fusion"], "halal": true, "vegan": true },
+      { "id": "FC2", "name": "12th Man Kitchen", "location": "Level 2 South Concourse", "cuisine": ["American", "Mexican", "BBQ"], "halal": false, "vegan": true },
+      { "id": "FC3", "name": "Sound End Eats", "location": "Level 1 East Concourse", "cuisine": ["Pizza", "Burgers", "Salads"], "halal": false, "vegan": true }
+    ],
+    "medical_rooms": [
+      { "id": "MED1", "name": "Medical Station 1", "location": "Level 1 near North Gate", "has_defibrillator": true, "has_wheelchair": true },
+      { "id": "MED2", "name": "Medical Station 2", "location": "Level 2 near South Gate", "has_defibrillator": true, "has_wheelchair": true }
+    ],
+    "toilets": [
+      { "id": "T1", "location": "Level 1 Section 101-108", "accessible": true, "baby_change": true },
+      { "id": "T2", "location": "Level 1 Section 109-116", "accessible": true, "baby_change": true },
+      { "id": "T3", "location": "Level 2 Section 301-308", "accessible": true, "baby_change": false },
+      { "id": "T4", "location": "Level 2 Section 309-316", "accessible": true, "baby_change": true },
+      { "id": "T5", "location": "Level 3 Suite Level", "accessible": true, "baby_change": true }
+    ],
+    "accessibility": {
+      "wheelchair_seating": ["Section 105", "Section 110", "Section 305", "Section 310"],
+      "elevators": ["Near North Gate (Level 1-3)", "Near South Gate (Level 1-3)"],
+      "ramps": ["North Gate entrance ramp", "South Gate entrance ramp", "East Gate entrance ramp"],
+      "sensory_room": "Level 1 near East Gate - quiet room for sensory needs",
+      "companion_seating": true,
+      "hearing_loop": true,
+      "braille_signage": true,
+      "service_animals": true
+    },
+    "security_checkpoints": [
+      { "location": "North Gate Entrance", "wait_time_avg": "10 min" },
+      { "location": "South Gate Entrance", "wait_time_avg": "8 min" },
+      { "location": "East Gate Entrance", "wait_time_avg": "9 min" },
+      { "location": "West Gate Entrance", "wait_time_avg": "11 min" },
+      { "location": "VIP Gate", "wait_time_avg": "3 min" }
+    ],
+    "transport": {
+      "metro": "Link Light Rail - Stadium Station (2 min walk from East Gate)",
+      "bus": "King County Metro Routes 21, 56, 116, 120, 131 stop at 1st Ave S",
+      "shuttle": "Free FIFA shuttle from International District Station (runs every 8 min on match days)",
+      "taxi_rideshare": "Pickup/Dropoff at Occidental Ave S and S King St",
+      "walking": "20 min walk from Pike Place Market, 8 min from Pioneer Square"
+    },
+    "emergency_exits": ["Exit N1 - North side", "Exit N2 - Northwest corner", "Exit S1 - South side", "Exit E1 - East side", "Exit E2 - Southeast corner", "Exit W1 - West side"],
+    "emergency_contacts": {
+      "stadium_security": "+1-206-381-7555",
+      "medical_emergency": "911",
+      "lost_child": "+1-206-381-7600",
+      "lost_found": "+1-206-381-7700"
+    },
+    "fan_zone": "Pioneer Square Fan Festival - 10 min walk from East Gate, open 3 hours before kickoff",
+    "wifi": "Free Wi-Fi: 'LumenField-Fan'",
+    "charging_stations": ["Level 1 near North Gate", "Level 2 South Concourse"]
+  },
+  {
+    "id": "hou-nrg",
+    "name": "NRG Stadium",
+    "city": "Houston",
+    "country": "United States",
+    "capacity": 72220,
+    "roof": "retractable",
+    "coordinates": { "lat": 29.6847, "lng": -95.4107 },
+    "gates": [
+      { "id": "A", "name": "Gate A", "location": "North Entrance", "level": "Ground", "accessible": true },
+      { "id": "B", "name": "Gate B", "location": "East Entrance", "level": "Ground", "accessible": true },
+      { "id": "C", "name": "Gate C", "location": "South Entrance", "level": "Ground", "accessible": true },
+      { "id": "D", "name": "Gate D", "location": "West Entrance", "level": "Ground", "accessible": true }
+    ],
+    "entry_points": ["Gate A - North", "Gate B - East", "Gate C - South", "Gate D - West"],
+    "exit_points": ["Exit A1 - North", "Exit B1 - East", "Exit C1 - South", "Exit D1 - West"],
+    "parking": [
+      { "id": "BLUE", "name": "Blue Lot", "location": "Northeast", "capacity": 5000, "price": "$50", "ev_charging": true, "accessible_spots": 80 },
+      { "id": "TEAL", "name": "Teal Lot", "location": "Southeast", "capacity": 4000, "price": "$40", "ev_charging": false, "accessible_spots": 60 },
+      { "id": "RED", "name": "Red Lot", "location": "West", "capacity": 3000, "price": "$45", "ev_charging": true, "accessible_spots": 50 }
+    ],
+    "food_courts": [
+      { "id": "FC1", "name": "Texan BBQ Hall", "location": "Level 1 near Gate A", "cuisine": ["BBQ", "Tex-Mex", "American"], "halal": false, "vegan": true },
+      { "id": "FC2", "name": "Global Flavors", "location": "Level 2 near Gate C", "cuisine": ["Indian", "Asian", "Mediterranean"], "halal": true, "vegan": true }
+    ],
+    "medical_rooms": [
+      { "id": "MED1", "name": "Medical Station 1", "location": "Level 1 near Gate A", "has_defibrillator": true, "has_wheelchair": true },
+      { "id": "MED2", "name": "Medical Station 2", "location": "Level 2 near Gate C", "has_defibrillator": true, "has_wheelchair": true }
+    ],
+    "toilets": [
+      { "id": "T1", "location": "Level 1 Sections 100-112", "accessible": true, "baby_change": true },
+      { "id": "T2", "location": "Level 1 Sections 113-125", "accessible": true, "baby_change": true },
+      { "id": "T3", "location": "Level 2 Sections 300-312", "accessible": true, "baby_change": true },
+      { "id": "T4", "location": "Level 3 Suite Level", "accessible": true, "baby_change": false }
+    ],
+    "accessibility": {
+      "wheelchair_seating": ["Section 107", "Section 119", "Section 307", "Section 319"],
+      "elevators": ["Near Gate A (Level 1-3)", "Near Gate C (Level 1-3)"],
+      "ramps": ["All gate entrances have ramps"],
+      "sensory_room": "Level 1 near Gate B",
+      "companion_seating": true,
+      "hearing_loop": true,
+      "braille_signage": true,
+      "service_animals": true
+    },
+    "security_checkpoints": [
+      { "location": "Gate A Entrance", "wait_time_avg": "10 min" },
+      { "location": "Gate B Entrance", "wait_time_avg": "8 min" },
+      { "location": "Gate C Entrance", "wait_time_avg": "9 min" },
+      { "location": "Gate D Entrance", "wait_time_avg": "7 min" }
+    ],
+    "transport": {
+      "metro": "METRORail Red Line - NRG Park/Fannin South Station (10 min walk)",
+      "bus": "METRO Routes 25, 65 stop at NRG Park",
+      "shuttle": "Free FIFA shuttle from Downtown Transit Center (runs every 12 min on match days)",
+      "taxi_rideshare": "Pickup/Dropoff at Kirby Dr and McNee Rd",
+      "walking": "Not recommended from downtown (8+ miles)"
+    },
+    "emergency_exits": ["Exit A1 - North", "Exit B1 - East", "Exit C1 - South", "Exit D1 - West"],
+    "emergency_contacts": {
+      "stadium_security": "+1-832-667-1400",
+      "medical_emergency": "911",
+      "lost_child": "+1-832-667-1500",
+      "lost_found": "+1-832-667-1600"
+    },
+    "fan_zone": "NRG Park Fan Festival - Adjacent to stadium, open 3 hours before kickoff",
+    "wifi": "Free Wi-Fi: 'NRG-FanWifi'",
+    "charging_stations": ["Level 1 near Gate B", "Level 2 Central Concourse"]
+  },
+  {
+    "id": "nyc-metlife",
+    "name": "MetLife Stadium",
+    "city": "East Rutherford, New Jersey",
+    "country": "United States",
+    "capacity": 82500,
+    "roof": "open-air",
+    "coordinates": { "lat": 40.8128, "lng": -74.0742 },
+    "gates": [
+      { "id": "A", "name": "Gate A", "location": "West Entrance", "level": "Ground", "accessible": true },
+      { "id": "B", "name": "Gate B", "location": "North Entrance", "level": "Ground", "accessible": true },
+      { "id": "C", "name": "Gate C", "location": "East Entrance", "level": "Ground", "accessible": true },
+      { "id": "D", "name": "Gate D", "location": "South Entrance", "level": "Ground", "accessible": true },
+      { "id": "E", "name": "Gate E", "location": "Southwest VIP", "level": "Ground", "accessible": true }
+    ],
+    "entry_points": ["Gate A - West", "Gate B - North", "Gate C - East", "Gate D - South", "Gate E - Southwest VIP"],
+    "exit_points": ["Exit A1 - West", "Exit B1 - North", "Exit B2 - Northeast", "Exit C1 - East", "Exit D1 - South", "Exit E1 - Southwest"],
+    "parking": [
+      { "id": "LOT_E", "name": "Lot E", "location": "East Side", "capacity": 8000, "price": "$60", "ev_charging": true, "accessible_spots": 100 },
+      { "id": "LOT_G", "name": "Lot G", "location": "South Side", "capacity": 5000, "price": "$50", "ev_charging": false, "accessible_spots": 80 },
+      { "id": "LOT_K", "name": "Lot K", "location": "North Side", "capacity": 6000, "price": "$55", "ev_charging": true, "accessible_spots": 90 },
+      { "id": "LOT_J", "name": "Lot J", "location": "West Side", "capacity": 4000, "price": "$45", "ev_charging": false, "accessible_spots": 60 }
+    ],
+    "food_courts": [
+      { "id": "FC1", "name": "Gridiron Grill", "location": "Level 1 near Gate A", "cuisine": ["American", "Italian", "Deli"], "halal": false, "vegan": true },
+      { "id": "FC2", "name": "International Kitchen", "location": "Level 2 near Gate C", "cuisine": ["Mexican", "Asian", "Middle Eastern"], "halal": true, "vegan": true },
+      { "id": "FC3", "name": "MetLife Marketplace", "location": "Level 1 near Gate B", "cuisine": ["Pizza", "Hot Dogs", "Craft Beer"], "halal": false, "vegan": false }
+    ],
+    "medical_rooms": [
+      { "id": "MED1", "name": "Medical Station 1", "location": "Level 1 near Gate A", "has_defibrillator": true, "has_wheelchair": true },
+      { "id": "MED2", "name": "Medical Station 2", "location": "Level 1 near Gate C", "has_defibrillator": true, "has_wheelchair": true },
+      { "id": "MED3", "name": "Medical Station 3", "location": "Level 2 near Gate B", "has_defibrillator": true, "has_wheelchair": true }
+    ],
+    "toilets": [
+      { "id": "T1", "location": "Level 1 Sections 101-115", "accessible": true, "baby_change": true },
+      { "id": "T2", "location": "Level 1 Sections 116-130", "accessible": true, "baby_change": true },
+      { "id": "T3", "location": "Level 2 Sections 201-215", "accessible": true, "baby_change": true },
+      { "id": "T4", "location": "Level 2 Sections 216-230", "accessible": true, "baby_change": false },
+      { "id": "T5", "location": "Level 3 Suite Level", "accessible": true, "baby_change": true }
+    ],
+    "accessibility": {
+      "wheelchair_seating": ["Section 108", "Section 120", "Section 208", "Section 220"],
+      "elevators": ["Near Gate A (Level 1-3)", "Near Gate C (Level 1-3)", "Near Gate B (Level 1-3)"],
+      "ramps": ["All gate entrances have ramps"],
+      "sensory_room": "Level 1 near Gate D",
+      "companion_seating": true,
+      "hearing_loop": true,
+      "braille_signage": true,
+      "service_animals": true
+    },
+    "security_checkpoints": [
+      { "location": "Gate A Entrance", "wait_time_avg": "12 min" },
+      { "location": "Gate B Entrance", "wait_time_avg": "15 min" },
+      { "location": "Gate C Entrance", "wait_time_avg": "10 min" },
+      { "location": "Gate D Entrance", "wait_time_avg": "11 min" },
+      { "location": "Gate E Entrance", "wait_time_avg": "5 min" }
+    ],
+    "transport": {
+      "metro": "NJ Transit Rail - Meadowlands Station (direct service on match days, 5 min walk)",
+      "bus": "NJ Transit Bus 160, 161, 165 from Port Authority Bus Terminal",
+      "shuttle": "Free FIFA shuttle from Secaucus Junction (runs every 10 min on match days)",
+      "taxi_rideshare": "Pickup/Dropoff at Lot L, West side of stadium",
+      "walking": "Not practical from NYC (stadium is in NJ Meadowlands complex)"
+    },
+    "emergency_exits": ["Exit A1 - West", "Exit B1 - North", "Exit B2 - Northeast", "Exit C1 - East", "Exit D1 - South", "Exit E1 - Southwest"],
+    "emergency_contacts": {
+      "stadium_security": "+1-201-559-1515",
+      "medical_emergency": "911",
+      "lost_child": "+1-201-559-1600",
+      "lost_found": "+1-201-559-1700"
+    },
+    "fan_zone": "Meadowlands Fan Village - Adjacent to Lot J, open 4 hours before kickoff",
+    "wifi": "Free Wi-Fi: 'MetLife-FanZone'",
+    "charging_stations": ["Level 1 near Gate A", "Level 1 near Gate C", "Level 2 Central Concourse"]
+  },
+  {
+    "id": "dal-att",
+    "name": "AT&T Stadium",
+    "city": "Arlington, Texas",
+    "country": "United States",
+    "capacity": 80000,
+    "roof": "retractable",
+    "coordinates": { "lat": 32.7473, "lng": -97.0945 },
+    "gates": [
+      { "id": "1", "name": "Gate 1", "location": "North Entrance", "level": "Ground", "accessible": true },
+      { "id": "2", "name": "Gate 2", "location": "East Entrance", "level": "Ground", "accessible": true },
+      { "id": "3", "name": "Gate 3", "location": "South Entrance", "level": "Ground", "accessible": true },
+      { "id": "4", "name": "Gate 4", "location": "West Entrance", "level": "Ground", "accessible": true },
+      { "id": "5", "name": "Gate 5", "location": "Northeast VIP", "level": "Ground", "accessible": true }
+    ],
+    "entry_points": ["Gate 1 - North", "Gate 2 - East", "Gate 3 - South", "Gate 4 - West", "Gate 5 - Northeast VIP"],
+    "exit_points": ["Exit 1A - North", "Exit 2A - East", "Exit 3A - South", "Exit 4A - West"],
+    "parking": [
+      { "id": "LOT_A", "name": "Lot A", "location": "North", "capacity": 5000, "price": "$55", "ev_charging": true, "accessible_spots": 75 },
+      { "id": "LOT_B", "name": "Lot B", "location": "East", "capacity": 4000, "price": "$50", "ev_charging": false, "accessible_spots": 60 },
+      { "id": "LOT_C", "name": "Lot C", "location": "South", "capacity": 6000, "price": "$40", "ev_charging": true, "accessible_spots": 80 },
+      { "id": "LOT_D", "name": "Lot D", "location": "West", "capacity": 3500, "price": "$45", "ev_charging": false, "accessible_spots": 50 }
+    ],
+    "food_courts": [
+      { "id": "FC1", "name": "Texas BBQ Pit", "location": "Level 1 near Gate 1", "cuisine": ["Texas BBQ", "Tex-Mex", "Southern"], "halal": false, "vegan": true },
+      { "id": "FC2", "name": "World Flavors", "location": "Level 2 near Gate 3", "cuisine": ["Asian", "Indian", "Mediterranean"], "halal": true, "vegan": true },
+      { "id": "FC3", "name": "Star Club Kitchen", "location": "Level 3 Club Level", "cuisine": ["Premium Steaks", "Sushi", "Fine Dining"], "halal": false, "vegan": true }
+    ],
+    "medical_rooms": [
+      { "id": "MED1", "name": "Medical Station 1", "location": "Level 1 near Gate 1", "has_defibrillator": true, "has_wheelchair": true },
+      { "id": "MED2", "name": "Medical Station 2", "location": "Level 2 near Gate 3", "has_defibrillator": true, "has_wheelchair": true }
+    ],
+    "toilets": [
+      { "id": "T1", "location": "Level 1 Sections 101-112", "accessible": true, "baby_change": true },
+      { "id": "T2", "location": "Level 1 Sections 113-124", "accessible": true, "baby_change": true },
+      { "id": "T3", "location": "Level 2 Sections 201-212", "accessible": true, "baby_change": false },
+      { "id": "T4", "location": "Level 3 Suite Level", "accessible": true, "baby_change": true }
+    ],
+    "accessibility": {
+      "wheelchair_seating": ["Section 106", "Section 118", "Section 206", "Section 218"],
+      "elevators": ["Near Gate 1 (Level 1-4)", "Near Gate 3 (Level 1-4)"],
+      "ramps": ["All gate entrances have ramps"],
+      "sensory_room": "Level 1 near Gate 2",
+      "companion_seating": true,
+      "hearing_loop": true,
+      "braille_signage": true,
+      "service_animals": true
+    },
+    "security_checkpoints": [
+      { "location": "Gate 1 Entrance", "wait_time_avg": "12 min" },
+      { "location": "Gate 2 Entrance", "wait_time_avg": "10 min" },
+      { "location": "Gate 3 Entrance", "wait_time_avg": "11 min" },
+      { "location": "Gate 4 Entrance", "wait_time_avg": "9 min" },
+      { "location": "Gate 5 Entrance", "wait_time_avg": "4 min" }
+    ],
+    "transport": {
+      "metro": "No direct rail - Arlington does not have public transit rail",
+      "bus": "Handitran and Via Rideshare available in Arlington",
+      "shuttle": "Free FIFA shuttle from Dallas DART Rail (CentrePort Station, runs every 15 min on match days)",
+      "taxi_rideshare": "Pickup/Dropoff at Lot D, West side",
+      "walking": "12 min walk from Arlington Entertainment District"
+    },
+    "emergency_exits": ["Exit 1A - North", "Exit 2A - East", "Exit 3A - South", "Exit 4A - West"],
+    "emergency_contacts": {
+      "stadium_security": "+1-817-892-4000",
+      "medical_emergency": "911",
+      "lost_child": "+1-817-892-4100",
+      "lost_found": "+1-817-892-4200"
+    },
+    "fan_zone": "Arlington Fan Park - East of stadium in Esports Stadium area, open 4 hours before kickoff",
+    "wifi": "Free Wi-Fi: 'ATT-Stadium-Fan'",
+    "charging_stations": ["Level 1 near Gate 1", "Level 2 near Gate 3"]
+  },
+  {
+    "id": "mex-azteca",
+    "name": "Estadio Azteca",
+    "city": "Mexico City",
+    "country": "Mexico",
+    "capacity": 87523,
+    "roof": "open-air",
+    "coordinates": { "lat": 19.3029, "lng": -99.1505 },
+    "gates": [
+      { "id": "1", "name": "Puerta 1", "location": "North Entrance", "level": "Ground", "accessible": true },
+      { "id": "2", "name": "Puerta 2", "location": "East Entrance", "level": "Ground", "accessible": true },
+      { "id": "3", "name": "Puerta 3", "location": "South Entrance", "level": "Ground", "accessible": true },
+      { "id": "4", "name": "Puerta 4", "location": "West Entrance", "level": "Ground", "accessible": true },
+      { "id": "VIP", "name": "Puerta VIP", "location": "Southwest Premium", "level": "Ground", "accessible": true }
+    ],
+    "entry_points": ["Puerta 1 - North", "Puerta 2 - East", "Puerta 3 - South", "Puerta 4 - West", "Puerta VIP - Southwest"],
+    "exit_points": ["Salida 1 - North", "Salida 2 - East", "Salida 3 - South", "Salida 4 - West"],
+    "parking": [
+      { "id": "P1", "name": "Estacionamiento Norte", "location": "North", "capacity": 4000, "price": "MXN $500", "ev_charging": true, "accessible_spots": 60 },
+      { "id": "P2", "name": "Estacionamiento Sur", "location": "South", "capacity": 3500, "price": "MXN $400", "ev_charging": false, "accessible_spots": 50 },
+      { "id": "P3", "name": "Estacionamiento Este", "location": "East", "capacity": 2500, "price": "MXN $450", "ev_charging": true, "accessible_spots": 40 }
+    ],
+    "food_courts": [
+      { "id": "FC1", "name": "Cocina Mexicana", "location": "Level 1 near Puerta 1", "cuisine": ["Mexican", "Tacos", "Antojitos"], "halal": false, "vegan": true },
+      { "id": "FC2", "name": "Sabores del Mundo", "location": "Level 2 near Puerta 3", "cuisine": ["International", "Asian", "Italian"], "halal": true, "vegan": true },
+      { "id": "FC3", "name": "Palco Gourmet", "location": "Level 3 VIP", "cuisine": ["Premium Mexican", "Seafood", "Fine Dining"], "halal": false, "vegan": true }
+    ],
+    "medical_rooms": [
+      { "id": "MED1", "name": "Centro Médico 1", "location": "Level 1 near Puerta 1", "has_defibrillator": true, "has_wheelchair": true },
+      { "id": "MED2", "name": "Centro Médico 2", "location": "Level 2 near Puerta 3", "has_defibrillator": true, "has_wheelchair": true },
+      { "id": "MED3", "name": "Centro Médico 3", "location": "Level 1 near Puerta 2", "has_defibrillator": true, "has_wheelchair": true }
+    ],
+    "toilets": [
+      { "id": "T1", "location": "Level 1 Sections 101-115", "accessible": true, "baby_change": true },
+      { "id": "T2", "location": "Level 1 Sections 116-130", "accessible": true, "baby_change": true },
+      { "id": "T3", "location": "Level 2 Sections 201-215", "accessible": true, "baby_change": true },
+      { "id": "T4", "location": "Level 2 Sections 216-230", "accessible": true, "baby_change": false },
+      { "id": "T5", "location": "Level 3 VIP", "accessible": true, "baby_change": true }
+    ],
+    "accessibility": {
+      "wheelchair_seating": ["Section 108", "Section 122", "Section 208", "Section 222"],
+      "elevators": ["Near Puerta 1 (Level 1-3)", "Near Puerta 3 (Level 1-3)"],
+      "ramps": ["Puerta 1 entrance ramp", "Puerta 3 entrance ramp", "Puerta 4 entrance ramp"],
+      "sensory_room": "Level 1 near Puerta 2",
+      "companion_seating": true,
+      "hearing_loop": true,
+      "braille_signage": true,
+      "service_animals": true
+    },
+    "security_checkpoints": [
+      { "location": "Puerta 1 Entrance", "wait_time_avg": "15 min" },
+      { "location": "Puerta 2 Entrance", "wait_time_avg": "12 min" },
+      { "location": "Puerta 3 Entrance", "wait_time_avg": "14 min" },
+      { "location": "Puerta 4 Entrance", "wait_time_avg": "10 min" },
+      { "location": "Puerta VIP", "wait_time_avg": "5 min" }
+    ],
+    "transport": {
+      "metro": "Metro Línea 2 - Estación Azteca (3 min walk from Puerta 3)",
+      "bus": "Metrobús Línea 1 and multiple RTP bus routes stop near the stadium",
+      "shuttle": "Free FIFA shuttle from Zócalo/Centro Histórico (runs every 10 min on match days)",
+      "taxi_rideshare": "Pickup/Dropoff at Calzada de Tlalpan",
+      "walking": "5 min walk from Metro Azteca station"
+    },
+    "emergency_exits": ["Salida 1 - North", "Salida 2 - East", "Salida 3 - South", "Salida 4 - West"],
+    "emergency_contacts": {
+      "stadium_security": "+52-55-5487-3200",
+      "medical_emergency": "911",
+      "lost_child": "+52-55-5487-3300",
+      "lost_found": "+52-55-5487-3400"
+    },
+    "fan_zone": "Azteca Fan Festival - North parking area, open 4 hours before kickoff",
+    "wifi": "Free Wi-Fi: 'Azteca-Fan'",
+    "charging_stations": ["Level 1 near Puerta 1", "Level 2 near Puerta 3", "VIP Level"]
+  }
+]

@@ -1,0 +1,140 @@
+# ==============================================================================
+# Professional .gitignore for Fullstack Projects
+# Stack: Node.js, React, Vite, Next.js, Python, FastAPI
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# 1. Virtual Environments
+# ------------------------------------------------------------------------------
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ------------------------------------------------------------------------------
+# 2. Node.js & Frontend Dependencies
+# ------------------------------------------------------------------------------
+node_modules/
+jspm_packages/
+.npm
+.yarn/
+.pnp.*
+
+# ------------------------------------------------------------------------------
+# 3. Build Outputs & Caches (Vite, Next.js, React)
+# ------------------------------------------------------------------------------
+dist/
+build/
+out/
+.next/
+.nuxt/
+.vuepress/
+.serverless/
+.cache/
+.parcel-cache/
+.turbo/
+ts-coverage/
+coverage/
+
+# ------------------------------------------------------------------------------
+# 4. Python & Backend (FastAPI)
+# ------------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Pytest / Coverage
+.tox/
+.nox/
+.coverage
+.coverage.*
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# ------------------------------------------------------------------------------
+# 5. Environment Variables & Secrets
+# ------------------------------------------------------------------------------
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.local
+*.pem
+*.key
+*.cert
+credentials.json
+client_secret.json
+
+# ------------------------------------------------------------------------------
+# 6. Logs & Temp Files
+# ------------------------------------------------------------------------------
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+*.pid
+*.seed
+*.pid.lock
+
+# ------------------------------------------------------------------------------
+# 7. OS Generated Files
+# ------------------------------------------------------------------------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+ehthumbs_vista.db
+[Tt]humbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# ------------------------------------------------------------------------------
+# 8. IDE & Editor Files
+# ------------------------------------------------------------------------------
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.fleet/

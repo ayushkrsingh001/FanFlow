@@ -1,0 +1,23 @@
+{
+  "general": {
+    "wheelchair_seating": "Wheelchair-accessible seating is available at every stadium. Companion seating is provided at no additional cost. Book accessible seating through the official FIFA ticket portal or contact the accessibility hotline.",
+    "elevators": "Elevators are available at all major gates. During peak times, priority is given to wheelchair users and those with mobility impairments.",
+    "ramps": "All gate entrances have wheelchair-accessible ramps. Concourse areas are fully accessible on every level.",
+    "sensory_room": "Each stadium has at least one quiet/sensory room for fans with autism or sensory processing disorders. The room has reduced lighting, noise-dampening materials, and a live match feed.",
+    "companion_seating": "One companion seat is provided at no extra charge with each wheelchair-accessible ticket.",
+    "hearing_loop": "Induction hearing loops are installed in key areas including information desks, medical stations, and select seating sections.",
+    "braille_signage": "Braille and tactile signage is available at all gate entrances, elevator landings, restrooms, and key wayfinding points.",
+    "service_animals": "Certified service animals are welcome at all stadiums. Emotional support animals are NOT permitted. Relief areas for service animals are located near each gate entrance.",
+    "large_print": "Large-print event programs and wayfinding guides are available at Information Desks near each gate.",
+    "sign_language": "ASL/LSM interpreters are available upon request (48 hours advance notice). Contact the accessibility hotline.",
+    "mobility_aids": "Wheelchairs and mobility scooters can be borrowed (subject to availability) from Medical Stations. A valid ID is required as deposit."
+  },
+  "by_stadium": {
+    "atl-mbs": { "wheelchair_sections": ["Section 112", "Section 118", "Section 212", "Section 218"], "elevators": ["Gate A", "Gate C", "Central Concourse"], "sensory_room": "Level 1 near Gate B", "service_animal_relief": "Outside Gate A, Level 1", "accessibility_hotline": "+1-404-223-4333" },
+    "sea-lumen": { "wheelchair_sections": ["Section 105", "Section 110", "Section 305", "Section 310"], "elevators": ["North Gate", "South Gate"], "sensory_room": "Level 1 near East Gate", "service_animal_relief": "Outside North Gate", "accessibility_hotline": "+1-206-381-7800" },
+    "hou-nrg": { "wheelchair_sections": ["Section 107", "Section 119", "Section 307", "Section 319"], "elevators": ["Gate A", "Gate C"], "sensory_room": "Level 1 near Gate B", "service_animal_relief": "Outside Gate D", "accessibility_hotline": "+1-832-667-1700" },
+    "nyc-metlife": { "wheelchair_sections": ["Section 108", "Section 120", "Section 208", "Section 220"], "elevators": ["Gate A", "Gate B", "Gate C"], "sensory_room": "Level 1 near Gate D", "service_animal_relief": "Outside Gate A", "accessibility_hotline": "+1-201-559-1800" },
+    "dal-att": { "wheelchair_sections": ["Section 106", "Section 118", "Section 206", "Section 218"], "elevators": ["Gate 1", "Gate 3"], "sensory_room": "Level 1 near Gate 2", "service_animal_relief": "Outside Gate 4", "accessibility_hotline": "+1-817-892-4300" },
+    "mex-azteca": { "wheelchair_sections": ["Section 108", "Section 122", "Section 208", "Section 222"], "elevators": ["Puerta 1", "Puerta 3"], "sensory_room": "Level 1 near Puerta 2", "service_animal_relief": "Outside Puerta 4", "accessibility_hotline": "+52-55-5487-3500" }
+  }
+}

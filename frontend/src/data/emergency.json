@@ -1,0 +1,30 @@
+{
+  "general_procedures": {
+    "evacuation": "In case of emergency evacuation, follow the illuminated exit signs and staff directions. Do NOT use elevators during evacuation. Proceed to the nearest emergency exit calmly and quickly. Assembly points are located in each parking lot.",
+    "earthquake": "Drop, Cover, and Hold. Stay away from glass and overhead fixtures. Once shaking stops, follow staff instructions to exit via nearest emergency route.",
+    "severe_weather": "For stadiums with retractable roofs (Atlanta, Houston, Arlington), the roof will close. For open-air stadiums (Seattle, MetLife, Azteca), seek shelter in covered concourse areas. Follow PA announcements.",
+    "fire": "Exit immediately via nearest emergency exit. Do NOT use elevators. Call 911. Stadium fire suppression systems will activate automatically.",
+    "medical": "Alert nearest staff member or call stadium medical hotline. AED defibrillators are located at every medical station and at 50-meter intervals throughout concourses.",
+    "active_threat": "Run, Hide, Fight. If possible, exit the stadium immediately. If exit is not possible, hide behind solid objects. Call 911. Follow law enforcement instructions.",
+    "lost_child": "Report immediately to any staff member or security personnel. Stadium will initiate Code Adam protocol. Go to the nearest Information Desk or Medical Station."
+  },
+  "emergency_exits_by_stadium": {
+    "atl-mbs": ["Exit A1 - Northwest corner", "Exit A2 - North side", "Exit B1 - Northeast corner", "Exit C1 - Southeast corner", "Exit C2 - South side", "Exit D1 - Southwest corner"],
+    "sea-lumen": ["Exit N1 - North side", "Exit N2 - Northwest corner", "Exit S1 - South side", "Exit E1 - East side", "Exit E2 - Southeast corner", "Exit W1 - West side"],
+    "hou-nrg": ["Exit A1 - North", "Exit B1 - East", "Exit C1 - South", "Exit D1 - West"],
+    "nyc-metlife": ["Exit A1 - West", "Exit B1 - North", "Exit B2 - Northeast", "Exit C1 - East", "Exit D1 - South", "Exit E1 - Southwest"],
+    "dal-att": ["Exit 1A - North", "Exit 2A - East", "Exit 3A - South", "Exit 4A - West"],
+    "mex-azteca": ["Salida 1 - North", "Salida 2 - East", "Salida 3 - South", "Salida 4 - West"]
+  },
+  "emergency_contacts": {
+    "universal": { "emergency": "911", "text_for_help": "Text 'HELP' to 78247" },
+    "atl-mbs": { "security": "+1-404-223-4000", "medical": "+1-404-223-4000", "lost_child": "+1-404-223-4111", "lost_found": "+1-404-223-4222" },
+    "sea-lumen": { "security": "+1-206-381-7555", "medical": "+1-206-381-7555", "lost_child": "+1-206-381-7600", "lost_found": "+1-206-381-7700" },
+    "hou-nrg": { "security": "+1-832-667-1400", "medical": "+1-832-667-1400", "lost_child": "+1-832-667-1500", "lost_found": "+1-832-667-1600" },
+    "nyc-metlife": { "security": "+1-201-559-1515", "medical": "+1-201-559-1515", "lost_child": "+1-201-559-1600", "lost_found": "+1-201-559-1700" },
+    "dal-att": { "security": "+1-817-892-4000", "medical": "+1-817-892-4000", "lost_child": "+1-817-892-4100", "lost_found": "+1-817-892-4200" },
+    "mex-azteca": { "security": "+52-55-5487-3200", "medical": "+52-55-5487-3200", "lost_child": "+52-55-5487-3300", "lost_found": "+52-55-5487-3400" }
+  },
+  "assembly_points": "Each parking lot has a designated assembly point marked with fluorescent signs. Proceed to the assembly point nearest your exit gate.",
+  "tips": ["Know your nearest exit BEFORE the match starts", "Keep your phone charged for emergency communications", "If separated from your group, meet at the designated assembly point in your parking lot", "Follow staff directions — they are trained for emergency scenarios"]
+}

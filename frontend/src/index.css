@@ -1,0 +1,105 @@
+@import "@fontsource/inter/400.css";
+@import "@fontsource/inter/500.css";
+@import "@fontsource/inter/600.css";
+@import "@fontsource/inter/700.css";
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+@theme {
+  --color-primary-bg: #F8FAFC;
+  --color-secondary-bg: #FFFFFF;
+  --color-section-bg: #F8FAFC;
+  
+  --color-text-primary: #0F172A;
+  --color-text-secondary: #64748B;
+  --color-text-heading: #0F172A;
+  --color-text-muted: #94A3B8;
+  
+  --color-border: #E2E8F0;
+  --color-border-strong: #E5E7EB;
+  
+  --color-primary: #16A34A;
+  --color-primary-hover: #15803D;
+  --color-secondary: #2563EB;
+  --color-accent: #F59E0B;
+  --color-danger: #EF4444;
+  --color-success: #22C55E;
+}
+
+body {
+  background-color: #F8FAFC;
+  color: #0F172A;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Scrollbar — light theme */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F1F5F9;
+}
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94A3B8;
+}
+
+/* Enterprise Utilities */
+.shadow-enterprise {
+  box-shadow: 0 2px 8px rgba(15,23,42,.05);
+}
+
+.card-enterprise {
+  background-color: #FFFFFF;
+  border: 1px solid #E2E8F0;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(15,23,42,.05);
+}
+
+.input-enterprise {
+  background-color: #FFFFFF;
+  border: 1px solid #E2E8F0;
+  border-radius: 6px;
+  color: #0F172A;
+  font-size: 14px;
+}
+.input-enterprise:focus {
+  outline: none;
+  border-color: #16A34A;
+  box-shadow: 0 0 0 2px rgba(22,163,74,.15);
+}
+
+.btn-enterprise {
+  border-radius: 8px;
+  font-weight: 500;
+  transition: all 0.15s ease-in-out;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: #16A34A;
+  color: #FFFFFF;
+  border: none;
+}
+.btn-primary:hover {
+  background-color: #15803D;
+}
+
+.btn-secondary {
+  background-color: #FFFFFF;
+  color: #334155;
+  border: 1px solid #E2E8F0;
+}
+.btn-secondary:hover {
+  background-color: #F8FAFC;
+}

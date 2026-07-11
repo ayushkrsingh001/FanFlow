@@ -1,0 +1,17 @@
+{
+  "general_tips": {
+    "best_arrival": "Arrive at least 90 minutes before kickoff. Gates open 2.5-3 hours before the match. Security screening is fastest in the first hour of gate opening.",
+    "peak_entry_times": "60-30 minutes before kickoff is the busiest time at security. Avoid arriving in this window if possible.",
+    "peak_concourse_times": "Halftime sees the highest concourse traffic. Visit food courts and restrooms early in each half to avoid queues.",
+    "exit_strategy": "Leave 5 minutes before the final whistle to beat the crowd, or wait 20-30 minutes after the final whistle for crowds to thin.",
+    "crowd_density_zones": "Gate areas, main concourse intersections, and escalator/elevator banks experience the highest crowd density. Use alternative routes when possible."
+  },
+  "by_stadium": {
+    "atl-mbs": { "busiest_gate": "Gate C (Southeast)", "least_busy_gate": "Gate D (Southwest)", "crowd_tip": "Gate C sees 35% more traffic than Gate D. Use Gate D if coming from the south side." },
+    "sea-lumen": { "busiest_gate": "West Gate", "least_busy_gate": "South Gate", "crowd_tip": "South Gate is less used. Great for families and accessibility needs." },
+    "hou-nrg": { "busiest_gate": "Gate A (North)", "least_busy_gate": "Gate D (West)", "crowd_tip": "Blue Lot fans create heavy traffic at Gate B. Consider Gate D." },
+    "nyc-metlife": { "busiest_gate": "Gate B (North)", "least_busy_gate": "Gate C (East)", "crowd_tip": "NJ Transit arrivals crowd Gate B. Use Gate C for faster entry." },
+    "dal-att": { "busiest_gate": "Gate 1 (North)", "least_busy_gate": "Gate 4 (West)", "crowd_tip": "Gate 4 has the shortest security wait times on average." },
+    "mex-azteca": { "busiest_gate": "Puerta 1 (North)", "least_busy_gate": "Puerta 4 (West)", "crowd_tip": "Metro arrivals crowd Puerta 3. Use Puerta 4 for less congestion." }
+  }
+}

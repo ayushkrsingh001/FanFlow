@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /ops
+Disallow: /login
+
+Sitemap: https://fanflow.ai/sitemap.xml

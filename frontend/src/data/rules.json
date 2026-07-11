@@ -1,0 +1,26 @@
+{
+  "stadium_rules": [
+    "All fans must have a valid ticket for entry. Digital tickets on the official FIFA app are preferred.",
+    "Clear bag policy is strictly enforced. Bags must be clear plastic and not exceed 14x14x6 inches (35x35x15 cm).",
+    "No re-entry once you exit the stadium.",
+    "Smoking, vaping, and e-cigarettes are prohibited inside all stadiums.",
+    "Standing in aisles, stairways, or blocking emergency exits is not permitted.",
+    "Throwing objects onto the field of play will result in immediate ejection and potential criminal charges.",
+    "Entering the field of play is prohibited and is a criminal offense.",
+    "Discriminatory language, gestures, or behavior of any kind will result in immediate ejection.",
+    "Excessive intoxication may result in denial of entry or ejection.",
+    "Ticket scalping on stadium grounds is prohibited.",
+    "Commercial photography and video recording are prohibited without written FIFA authorization.",
+    "Drone operation within 3 miles of the stadium is prohibited (FAA/local regulations).",
+    "Fans must comply with all instructions from security staff and stewards."
+  ],
+  "code_of_conduct": "FIFA and the host stadiums are committed to providing a safe, enjoyable, and inclusive environment for all fans. Discriminatory, violent, or disruptive behavior will not be tolerated. Fans who violate the code of conduct may be ejected without refund and banned from future events.",
+  "age_restrictions": {
+    "alcohol": "Must be 21+ (US) or 18+ (Mexico) with valid photo ID",
+    "vip_areas": "Some VIP areas may have age restrictions for evening events",
+    "children": "Children under 3 are free (on parent's lap). Children 3+ require a ticket."
+  },
+  "re_entry_policy": "Re-entry is NOT permitted at any FIFA World Cup 2026 venue. Once you exit the stadium, you cannot return. Plan accordingly.",
+  "pet_policy": "Only certified service animals are permitted. Emotional support animals are NOT allowed. Service animal relief areas are available near each gate.",
+  "alcohol_policy": "Alcohol sales stop at the 75th minute of the match. No hard liquor is sold inside the stadium (beer and wine only). Two-drink limit per purchase."
+}
