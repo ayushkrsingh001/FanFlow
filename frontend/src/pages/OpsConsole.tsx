@@ -27,7 +27,7 @@ export default function OpsConsole() {
 
   // Sync Firebase auth user into store
   useEffect(() => {
-    const unsub = auth.onAuthStateChanged((user) => {
+    const unsub = auth.onAuthStateChanged((user: any) => {
       if (user) {
         setUserProfile({
           displayName: user.displayName || 'Ops Admin',
