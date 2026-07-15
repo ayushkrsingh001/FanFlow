@@ -27,6 +27,7 @@ describe('Accessibility tests (axe-core)', () => {
   it('ChatInterface has no accessibility violations', async () => {
     const { container } = render(<ChatInterface />)
     const results = await axe(container)
+    // @ts-ignore
     expect(results).toHaveNoViolations()
   })
 
@@ -38,6 +39,7 @@ describe('Accessibility tests (axe-core)', () => {
       />
     )
     const results = await axe(container)
+    // @ts-ignore
     expect(results).toHaveNoViolations()
   })
 
@@ -46,6 +48,7 @@ describe('Accessibility tests (axe-core)', () => {
       <MetricCard label="Test Metric" value="123" subtitle="Test Subtitle" />
     )
     const results = await axe(container)
+    // @ts-ignore
     expect(results).toHaveNoViolations()
   })
 })

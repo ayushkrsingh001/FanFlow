@@ -24,7 +24,7 @@ describe('MetricCard', () => {
   })
 
   it('applies critical styling when critical is true', () => {
-    const { container } = render(<MetricCard label="Medical" value="12" critical={true} />)
+    render(<MetricCard label="Medical" value="12" critical={true} />)
     // The value should have red text
     const valueEl = screen.getByText('12')
     expect(valueEl.className).toContain('text-[#EF4444]')

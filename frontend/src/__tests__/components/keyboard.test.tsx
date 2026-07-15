@@ -24,7 +24,7 @@ describe('Keyboard navigation & interaction', () => {
     
     const toggleMapBtn = screen.getByRole('button', { name: /toggle map/i })
     const input = screen.getByRole('textbox')
-    const submitBtn = screen.getByRole('button', { name: /send message/i }) // Send button
+    // We skip the submit button because it's disabled when input is empty
     
     // Start by tabbing
     await user.tab()

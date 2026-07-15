@@ -9,13 +9,13 @@ import { BrowserRouter } from 'react-router-dom'
 
 vi.mock('../../lib/firebase', () => ({
   auth: {
-    onAuthStateChanged: vi.fn((cb) => { 
-      // cb is the callback
+    onAuthStateChanged: vi.fn((...args: any[]) => { 
+      const cb = args[0];
       if (typeof cb === 'function') {
         cb({ uid: 'user123', email: 'test@ops.com' })
-      } else if (arguments.length > 1 && typeof arguments[1] === 'function') {
+      } else if (args.length > 1 && typeof args[1] === 'function') {
         // Handle (auth, cb) signature if used
-        arguments[1]({ uid: 'user123', email: 'test@ops.com' })
+        args[1]({ uid: 'user123', email: 'test@ops.com' })
       }
       return () => {} // unsubscribe function
     })
@@ -28,7 +28,7 @@ describe('OpsConsole Dashboard', () => {
   })
 
   it('renders the ops console with metrics and heatmap', () => {
-    const { container } = render(
+    render(
       <BrowserRouter>
         <OpsConsole />
       </BrowserRouter>

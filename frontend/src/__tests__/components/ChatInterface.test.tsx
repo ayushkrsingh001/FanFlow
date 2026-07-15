@@ -2,7 +2,7 @@
  * Unit tests for ChatInterface component.
  */
 import { describe, it, expect, vi } from 'vitest'
-import { render, screen, act } from '@testing-library/react'
+import { render, screen } from '@testing-library/react'
 import ChatInterface from '../../components/ChatInterface'
 import { useChat } from '../../hooks/useChat'
 
@@ -18,6 +18,7 @@ describe('ChatInterface', () => {
         { id: '2', role: 'assistant', content: 'El baño está cerca de la puerta A.' }
       ],
       isLoading: false,
+      error: null,
       sendMessage: vi.fn(),
       resetLoading: vi.fn()
     })
@@ -35,6 +36,7 @@ describe('ChatInterface', () => {
         { id: '1', role: 'user', content: 'Where is my seat?' }
       ],
       isLoading: true,
+      error: null,
       sendMessage: vi.fn(),
       resetLoading: vi.fn()
     })

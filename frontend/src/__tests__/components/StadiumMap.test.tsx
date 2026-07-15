@@ -1,7 +1,7 @@
 /**
  * Tests for the StadiumMap component.
  */
-import { describe, it, expect, vi } from 'vitest'
+import { describe, it, expect } from 'vitest'
 import { render, screen } from '@testing-library/react'
 import StadiumMap from '../../components/StadiumMap'
 import { useAppStore } from '../../store/useAppStore'
@@ -17,7 +17,7 @@ describe('StadiumMap', () => {
 
   it('displays a route when provided in state', () => {
     useAppStore.setState({ selectedVenue: 'atl-mbs' })
-    const { container } = render(<StadiumMap route={['Gate A', 'Section 112']} />)
+    render(<StadiumMap route={['Gate A', 'Section 112']} />)
     
     // We expect text elements representing the route
     expect(screen.getByText('Gate A')).toBeInTheDocument()

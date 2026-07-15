@@ -9,8 +9,6 @@ import {
   getAllStadiumIds,
   getStadiumMeta,
   type StadiumOpsData,
-  type GateData,
-  type ParkingData,
 } from '../../engine/simulationEngine'
 
 describe('simulationEngine', () => {
